@@ -6,7 +6,7 @@ import (
 
 func main() {
 	fmt.Println("Game prototyping!")
-	get_words("words.txt","test.txt")
+	compare([]byte("hello"),[]byte("bello"))
 }
 
 
